@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PendaftaranSiswa</title>
+</head>
+
+<table border="1" cellpadding="80" width="1000px" style="background-color: #ff8080;"><tr>
+    <td>
+        <body style="margin-left: 200px;margin-right: 200px;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <h1 align="center">PENDAFTARAN SISWA</h1><br><br>
+
+        <div id="INFORMASI PRIBADI">
+            <h3>INFORMASI PRIBADI</h3><hr><br>
+            
+            <label for="nama">Nama </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&nbsp; :
+            <input type="text" placeholder="Masukkan Nama Anda"> 
+            <br><br>
+    
+            <label for="tempat dan tanggal lahir">Tempat,Tanggal Lahir </label> &emsp;&emsp;&ensp;&ensp;&ensp; :
+            <input type="text dan number" placeholder="Jakarta"> &emsp;&emsp;&emsp;&emsp;
+            <label for="tanggal">Tanggal Lahir</label> &emsp; :
+            <input type="date">
+            <br><br>
+    
+            <label for="alamat">Alamat </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&nbsp; :
+            <input type="text" placeholder="Jalan Melati RT/RT 001/002"> &emsp;&emsp;&emsp;&emsp;
+            <label for="kelurahan">Kel</label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <input type="text"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&nbsp;
+            <label for="kecamatan">Kec</label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+            <input type="text">
+            <br><br>
+            
+            <label for="kode pos"> Kode Pos </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&nbsp; :
+            <input type="number" placeholder="4567">
+            <br><br>
+    
+            <label for="agama">Agama </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&nbsp; :
+            <input type="text" placeholder="Agama Anda"> &emsp;&emsp;&emsp;&emsp;
+            <label for="wanita">Wanita</label> 
+            <input type="checkbox"> &emsp;&emsp;
+            <label for="wanita">Pria</label>
+            <input type="checkbox">
+            <br><br>
+    
+            <label for="nomor telephnoe">No.Telp </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&ensp;&nbsp; :
+            <input type="number" placeholder="088123456789"> &emsp;&emsp;&emsp;&emsp;
+            <label for="usia">Usia</label> &emsp;&emsp;&emsp;&emsp;&emsp;&ensp; :
+            <input type="number">
+            <br><br>
+    
+            <label for="warga negara">Warga Negara </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&nbsp; :
+            <input type="text" placeholder="Indonesia">
+            <br><br>
+    
+            <label for="status">Status </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp; :
+            <label for="menikah">Menikah</label>
+            <input type="checkbox">
+            <label for="belum menikah">Belum Menikah</label>
+            <input type="checkbox">
+         </div><br> 
+
+         <div id="KETERANGAN ORANG TUA">
+            <h3>KETERANGAN ORANG TUA</h3><hr><br>
+    
+            <label for="nama">Nama </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&nbsp; :
+            <input type="text" placeholder="Masukkan Nama Anda"> 
+            <br><br>
+    
+            <label for="tempat dan tanggal lahir">Tempat,Tanggal Lahir </label> &emsp;&emsp;&ensp;&ensp;&ensp; :
+            <input type="text dan number" placeholder="Jakarta"> &emsp;&emsp;&emsp;&emsp;
+            <label for="tanggal">Tanggal Lahir</label> &emsp; :
+            <input type="date">
+            <br><br>
+    
+            <label for="alamat">Alamat </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&nbsp; :
+            <input type="text" placeholder="Jalan Melati RT/RT 001/002"> &emsp;&emsp;&emsp;&emsp;
+            <label for="kelurahan">Kel</label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <input type="text"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&nbsp;
+            <label for="kecamatan">Kec</label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+            <input type="text">
+            <br><br>
+            
+            <label for="kode pos"> Kode Pos </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&nbsp; :
+            <input type="number" placeholder="4567">
+            <br><br>
+    
+            <label for="agama">Agama </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&nbsp; :
+            <input type="text" placeholder="Agama Anda"> &emsp;&emsp;&emsp;&emsp;
+            <label for="wanita">Wanita</label> 
+            <input type="checkbox"> &emsp;&emsp;
+            <label for="wanita">Pria</label>
+            <input type="checkbox">
+            <br><br>
+    
+            <label for="nomor telephnoe">No.Telp </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&ensp;&nbsp; :
+            <input type="number" placeholder="088123456789"> &emsp;&emsp;&emsp;&emsp;
+            <label for="usia">Usia</label> &emsp;&emsp;&emsp;&emsp;&emsp;&ensp; :
+            <input type="number">
+            <br><br>
+    
+            <label for="warga negara">Warga Negara </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&nbsp; :
+            <input type="text" placeholder="Indonesia">
+            <br><br>
+         </div><br>
+            
+            <input type="submit">
+    </td>
+</tr></table>
+</body>
+</html>
